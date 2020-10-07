@@ -1,0 +1,35 @@
+i.icon{
+	font-size:2em;
+
+	color:blue;
+}
+body{
+	background-color:rgba(40,0,75,.4);
+
+}
+.container.main{
+	margin-top: 100px;
+}
+#bb{
+	text-align: center;
+	
+}
+.img1{
+	width: 258px;
+	height: 187px;
+	opacity:1;
+}
+.img2{
+	width: 300px;
+	height: 300px;
+	opacity:1;
+}
+#align{
+	text-align: center;
+}
+#align1{
+	margin-top: 80px;
+}
+#cent1{
+	text-align: center;
+}

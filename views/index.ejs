@@ -1,0 +1,44 @@
+<%- include("partials/header") %>
+
+ <div id=align>
+ <div class="row">
+   <%blog.forEach(function(blog){%>
+    <div class="container">
+     <div id="align1">
+       <h2><%-blog.title%></h2>
+     </div>  
+     <div>
+       <img src="<%=blog.img%>" class="img2">
+       </div> 
+       <div>
+       <span> <%=blog.created.toDateString()%></span>
+       </div>
+       <div> 
+       <p> <%-blog.body.substring(0,90)%>...</p>
+       </div>
+     <a href="/blog/<%-blog._id %>"><div style="color:yellow"> <button class="ui inverted green button">More</button></div></a>
+   
+   </div> 
+      <%})%>   
+   </div>
+ </div>
+ <%- include("partials/footer") %>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<%- include("partials/footer") %>
